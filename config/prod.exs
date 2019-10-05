@@ -11,8 +11,6 @@ import Config
 # before starting your production server.
 config :phoenix_hello, PhoenixHelloWeb.Endpoint,
   url: [host: "144.202.38.64", port: 80],
-  server: true,
-  code_reloader: false,
   cache_static_manifest: "priv/static/cache_manifest.json"
 
 # Do not print debug messages in production
